@@ -19,7 +19,7 @@ ul{
 
 .button_1{
   height:38px;
-  background:#e8491d;
+  background:#45a29e;
   border:0;
   padding-left: 20px;
   padding-right:20px;
@@ -33,7 +33,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#35424a;
+  background:#1a1a1d;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -42,11 +42,11 @@ ul{
 
 /* Header **/
 header{
-  background:#35424a;
+  background:#1f2833;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:#66fcf1 3px solid;
 }
 
 header a{
@@ -76,12 +76,12 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#66fcf1;
   font-weight:bold;
 }
 
 .highlight {
-  color:#e8491d;
+  color:#66fcf1;
   font-weight:bold;
 }
 
@@ -91,7 +91,7 @@ header a:hover{
 }
 
 header a:active{
-  color:#e8491d;
+  color:#66fcf1;
   font-weight:bold;
   position: relative;
   top: 2px;
@@ -100,7 +100,9 @@ header a:active{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background:url('../img/bg.jpg') no-repeat 0 -400px;
+  background-position: center;
+  background-size: cover;
   text-align:center;
   color:#ffffff;
 }
@@ -119,7 +121,7 @@ header a:active{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:#1f2833;
 }
 
 #newsletter h1{
@@ -145,8 +147,8 @@ header a:active{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:23%;
+  padding:6px;
 }
 
 #boxes .box img{
@@ -163,6 +165,10 @@ aside#sidebar{
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
   padding:5px;
+}
+
+form div {
+  margin-bottom: 20px;
 }
 
 /* Main-col */
@@ -184,7 +190,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color:#45a29e;
   text-align: center;
 }
 
